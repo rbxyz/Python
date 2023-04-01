@@ -1,0 +1,28 @@
+#não pode alter ou substituir uma variavel, tipo 
+#s=hello
+#depois
+#s=ola
+#oque se pode fazer é concatenar algo, por exemplo
+ini='hello world'
+s= ini +' concatenate me!'
+print(s)
+letter = 'z'
+letter*10
+print(letter)
+#era pra repetir 10x
+#------------------------------------
+maiusculas='hello world'.upper()
+#caixa alta
+print(maiusculas)
+
+minisculas='hello world'.lower()
+#caixa baixa
+print(minisculas)
+
+diiv='hello world'.split()
+#divide uma string nos espaços em branco
+print(diiv)
+
+diiv_especific='hello world'.split('w')
+#retira essa letra especifiicamente (ela diferencia up and low letter)
+print(diiv_especific)
