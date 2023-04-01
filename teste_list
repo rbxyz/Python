@@ -1,0 +1,9 @@
+a=['são paulo', 'natal', 'poa', 'salvador']
+print ('A primeira cidade da lista é: ')
+print (a[0])
+print('a segunda da lista é: ')
+print(a[1])
+print('a terceira da lsita é: ')
+print(a[2])
+print('a quarta da lista é: ')
+print(a[3])
